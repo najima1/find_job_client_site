@@ -98,13 +98,13 @@ const Navbar = () => {
                 </Link>
                 <Link
                   className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm text-[17px]"
-                  to=""
+                  to="/about"
                 >
                   About
                 </Link>
                 <Link
                   className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm text-[17px]"
-                  to=""
+                  to="/contack"
                 >
                   Contact us
                 </Link>

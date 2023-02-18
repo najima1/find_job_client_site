@@ -1,6 +1,7 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
+import About from "../pages/about/About";
 import Error_page from "../pages/error_page/Error_page";
 import Details_jobs from "../pages/fresher_job_section/Details_jobs";
 import Home from "../pages/home/Home";
@@ -45,6 +46,14 @@ const router = createBrowserRouter([
       {
         path: "/software2",
         element: <Details_jobs />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/contack",
+        element: <About />,
       },
 
       {
