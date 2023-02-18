@@ -1,4 +1,5 @@
 import React from "react";
+import Experienced from "../experienced_job/Experienced";
 import Fresher_jobs from "../fresher_job_section/Fresher_jobs";
 import Hero_banner from "../hero_banner_section/Hero_banner";
 
@@ -13,6 +14,9 @@ const Home = () => {
 
       {/* jobs for fresher */}
       <Fresher_jobs />
+
+      {/* Experienced section */}
+      <Experienced />
     </div>
   );
 };

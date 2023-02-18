@@ -22,6 +22,30 @@ const router = createBrowserRouter([
         path: "/home",
         element: <Home />,
       },
+      {
+        path: "/Software",
+        element: <Details_jobs />,
+      },
+      {
+        path: "/marketar",
+        element: <Details_jobs />,
+      },
+      {
+        path: "/marketar2",
+        element: <Details_jobs />,
+      },
+      {
+        path: "/wordpress",
+        element: <Details_jobs />,
+      },
+      {
+        path: "/visual",
+        element: <Details_jobs />,
+      },
+      {
+        path: "/software2",
+        element: <Details_jobs />,
+      },
 
       {
         path: "/:name_category",

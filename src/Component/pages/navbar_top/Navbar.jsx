@@ -1,17 +1,19 @@
 import React, { useContext, useState } from "react";
 import { toast } from "react-hot-toast";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../authContext/ContextProvider";
 import navLogo from "../../image/logo.png.webp";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(true);
   const { user, logOutUser } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const signoutHandelar = () => {
     logOutUser()
       .then(() => {
         toast.success("sign out success");
+        navigate("/login");
       })
       .catch((e) => toast.error(e.message));
   };

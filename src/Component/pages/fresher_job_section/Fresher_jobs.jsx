@@ -25,7 +25,7 @@ const Fresher_jobs = () => {
         </h1>
         <div className="container py-4 flex justify-between gap-x-5">
           <div className="w-full">
-            {fresher_data.map((data) => (
+            {fresher_data?.map((data) => (
               <Fresher_templete data={data} key={data._id} />
             ))}
           </div>
