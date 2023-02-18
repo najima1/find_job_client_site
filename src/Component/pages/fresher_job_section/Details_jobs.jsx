@@ -9,8 +9,6 @@ import "./fresher_banner.css";
 const Details_jobs = () => {
   const name = useParams();
 
-  const statics = `http://localhost:5000/fresher/Full_Stack_Developer`;
-
   const dynamic = `${process.env.REACT_APP_URL}/fresher/${name.name_category}`;
 
   const { data: data = [], isLoading } = useQuery({
@@ -22,8 +20,6 @@ const Details_jobs = () => {
       return res.data.data;
     },
   });
-
-
 
   return (
     <div className="pt-24">

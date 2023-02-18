@@ -10,7 +10,9 @@ const Fresher_jobs = () => {
     queryKey: ["fresher"],
 
     queryFn: async () => {
-      const res = await axios.get(`${process.env.REACT_APP_URL}/fresher`);
+      const res = await axios.get(
+        `https://jobs-backend-isjecqddt-najima1.vercel.app/fresher`
+      );
       return res.data.data;
     },
   });
