@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Fresher_templete = ({ data }) => {
   const { name } = data;
 
-
   return (
     <div>
       <div className="flex justify-between p-3 px-2 hover:bg-[#e4e7ec] transition-all flex-col md:flex-row ">

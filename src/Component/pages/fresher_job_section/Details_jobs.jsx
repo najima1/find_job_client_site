@@ -23,8 +23,7 @@ const Details_jobs = () => {
     },
   });
 
-  console.log(data);
-  // console.log(name);
+
 
   return (
     <div className="pt-24">

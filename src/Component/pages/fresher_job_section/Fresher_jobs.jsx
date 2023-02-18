@@ -15,15 +15,7 @@ const Fresher_jobs = () => {
     },
   });
 
-  
-  // const res = `${process.env.REACT_APP_URL}/fresher`;
-  // useEffect(() => {
-  //   fetch(res)
-  //     .then((res) => res.json())
-  //     .then((value) => {
-  //       console.log(value);
-  //     });
-  // }, []);
+  if (isLoading) return <h1>Loading</h1>;
 
   return (
     <div className="fresher_banner">

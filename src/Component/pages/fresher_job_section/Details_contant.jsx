@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../image/1.svg";
 
 const Details_contant = ({ data }) => {
-  console.log(data);
+ 
   return (
     <div className="container my-6">
       {/* content section */}
@@ -235,7 +235,7 @@ const Details_contant = ({ data }) => {
           <h1 className="text-2xl pb-2">Job Summery</h1>
           <hr />
 
-          <ul>
+          <ul className=" space-y-2 mt-2">
             <li>
               Published on: <span>{data?.published}</span>
             </li>

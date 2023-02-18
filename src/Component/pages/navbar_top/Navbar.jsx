@@ -1,9 +1,20 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { toast } from "react-hot-toast";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../authContext/ContextProvider";
 import navLogo from "../../image/logo.png.webp";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(true);
+  const { user, logOutUser } = useContext(AuthContext);
+
+  const signoutHandelar = () => {
+    logOutUser()
+      .then(() => {
+        toast.success("sign out success");
+      })
+      .catch((e) => toast.error(e.message));
+  };
 
   return (
     <div className="">
@@ -14,7 +25,7 @@ const Navbar = () => {
               <div>
                 <Link
                   className="text-2xl font-bold text-gray-800 transition-colors duration-300 transform  lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
-                  to="/"
+                  to=""
                 >
                   <img className="w-full" src={navLogo} alt="" />
                 </Link>
@@ -79,38 +90,38 @@ const Navbar = () => {
               <div className="flex flex-col md:flex-row md:mx-6">
                 <Link
                   className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 text-[17px]"
-                  to="/home"
+                  to="/"
                 >
                   Home
                 </Link>
-                <a
-                  href=""
+                <Link
                   className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm text-[17px]"
-                  // to="/portfolio"
+                  to=""
                 >
                   About
-                </a>
-                <a
-                  href=""
+                </Link>
+                <Link
                   className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm text-[17px]"
-                  // to="/about"
+                  to=""
                 >
                   Contact us
-                </a>
-                <a
-                  href=""
-                  className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm  text-[17px]"
-                  // to="/contact"
-                >
-                  Sign out
-                </a>
-                <a
-                  href=""
-                  className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm text-[17px]"
-                  // to="/blog"
-                >
-                  Sign in
-                </a>
+                </Link>
+                {/* login & logout */}
+                {user?.uid ? (
+                  <button
+                    onClick={signoutHandelar}
+                    className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm  text-[17px]"
+                  >
+                    Sign out
+                  </button>
+                ) : (
+                  <Link
+                    className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 dark:hover:text-blue-400 md:my-0 hover:bg-gray-200 p-2 px-6 rounded-sm text-[17px]"
+                    to="/login"
+                  >
+                    Sign in
+                  </Link>
+                )}
               </div>
             </div>
           </div>

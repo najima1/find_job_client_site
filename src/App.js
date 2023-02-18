@@ -4,6 +4,10 @@ import {
   QueryClient,
   QueryClientProvider,
 } from 'react-query'
+import ContextProvider from "./Component/authContext/ContextProvider";
+import { Toaster } from "react-hot-toast";
+
+
 
 // Create a client
 const queryClient = new QueryClient()
@@ -11,9 +15,18 @@ const queryClient = new QueryClient()
 function App() {
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
+
+    <ContextProvider>
+
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+        <Toaster />
+      </QueryClientProvider>
+
+    </ContextProvider>
+
+
+
 
   );
 }
