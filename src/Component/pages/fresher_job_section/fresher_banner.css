@@ -1,0 +1,14 @@
+.fresher_banner {
+  background-image: url("../../image/Blur-Bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.bannerImg {
+  background-image: url("../../image/bradcam.png.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}

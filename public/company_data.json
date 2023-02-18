@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Frontend Development",
+    "company": " FACEBOOK, INC",
+    "location": "WESTERN CITY, UK",
+    "name": "Frontend_Development",
+    "published": "12 Nov, 2020",
+    "vacancy": "2 Position",
+    "salary": "50k - 120k/y",
+    "job_nature": "full time",
+    "banner_img": "https://i.ibb.co/JFhjNQr/about-jpg.webp"
+  },
+  {
+    "category": "Full Stack Developer",
+    "company": " GOOGLE, INC",
+    "name": "Full_Stack_Developer",
+    "location": "WESTERN CITY, UK",
+    "published": "12 Dec, 2022",
+    "vacancy": "5 Position",
+    "salary": "20k - 30k/y",
+    "job_nature": "full time",
+    "banner_img": "https://i.ibb.co/JFhjNQr/about-jpg.webp"
+  },
+  {
+    "category": "Visual Designer",
+    "company": " GOOGLE, INC",
+    "name": "Visual_Designer",
+    "location": "UNITED STATE, USA",
+    "published": "12 Nov, 2023",
+    "vacancy": "6 Position",
+    "salary": "40k - 50k/y",
+    "job_nature": "full time",
+    "banner_img": "https://i.ibb.co/JFhjNQr/about-jpg.webp"
+  },
+  {
+    "category": "Digital Marketer",
+    "company": "DARAZ",
+    "company2": "Digital_Marketer",
+    "location": "BANGLADESH",
+    "published": "12 Nov, 2022",
+    "vacancy": "4 Position",
+    "salary": "20k - 30k/y",
+    "job_nature": "part time",
+    "banner_img": "https://i.ibb.co/JFhjNQr/about-jpg.webp"
+  },
+  {
+    "category": "Design & Creative",
+    "company": "ART BANGLA",
+    "company2": "Design_&_Creative",
+    "location": "INDIA",
+    "published": "12 Nov, 2019",
+    "vacancy": "2 Position",
+    "salary": "50k - 135k/y",
+    "job_nature": "full time",
+    "banner_img": "https://i.ibb.co/JFhjNQr/about-jpg.webp"
+  },
+  {
+    "category": "Design & Development",
+    "company": "GOOGLE",
+    "company2": "Design & Development",
+    "location": "PAKISTAN",
+    "published2 Position": "12 Nov, 2019",
+    "vacancy": "2 Position",
+    "salary": "50k - 120k/y",
+    "job_nature": "full time",
+    "banner_img": "https://i.ibb.co/JFhjNQr/about-jpg.webp"
+  }
+]

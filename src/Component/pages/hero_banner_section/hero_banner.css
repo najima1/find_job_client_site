@@ -1,0 +1,11 @@
+.bg_banner {
+  background-image: url("../../image/h1_hero.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.find_jobs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}

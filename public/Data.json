@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Frontend Development",
+    "company": " FACEBOOK, INC",
+    "location": "WESTERN CITY, UK",
+    "name": "Frontend_Development"
+  },
+  {
+    "category": "Full Stack Developer",
+    "company": " GOOGLE, INC",
+    "name": "Full_Stack_Developer",
+    "location": "WESTERN CITY, UK"
+  },
+  {
+    "category": "Visual Designer",
+    "company": " GOOGLE, INC",
+    "name": "Visual_Designer",
+    "location": "UNITED STATE, USA"
+  },
+  {
+    "category": "Digital Marketer",
+    "company": "DARAZ",
+    "name": "Digital_Marketer",
+    "location": "BANGLADESH"
+  },
+  {
+    "category": "Design & Creative",
+    "company": "ART BANGLA",
+    "name": "Design_&_Creative",
+    "location": "INDIA"
+  },
+  {
+    "category": "Design & Development",
+    "company": "GOOGLE",
+    "name": "Design_&_Development",
+    "location": "PAKISTAN"
+  }
+]
