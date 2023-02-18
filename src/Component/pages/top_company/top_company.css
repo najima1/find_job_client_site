@@ -1,0 +1,4 @@
+.responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fin, min-max(250px, 1fr));
+}

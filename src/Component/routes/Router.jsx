@@ -25,27 +25,52 @@ const router = createBrowserRouter([
       },
       {
         path: "/Software",
-        element: <Details_jobs />,
+        element: (
+          <PrivateRoute>
+            <Details_jobs />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/marketar",
-        element: <Details_jobs />,
+        element: (
+          <PrivateRoute>
+            <Details_jobs />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/marketar2",
-        element: <Details_jobs />,
+        element: (
+          <PrivateRoute>
+            <Details_jobs />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/wordpress",
-        element: <Details_jobs />,
+        element: (
+          <PrivateRoute>
+            <Details_jobs />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/visual",
-        element: <Details_jobs />,
+        element: (
+          <PrivateRoute>
+            {" "}
+            <Details_jobs />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/software2",
-        element: <Details_jobs />,
+        element: (
+          <PrivateRoute>
+            <Details_jobs />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/about",

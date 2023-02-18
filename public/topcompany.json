@@ -1,0 +1,50 @@
+[
+  {
+    "companyName": "Foxconn",
+    "count_jobs": "55 jobs",
+    "position": "Content writer",
+    "location": "USA",
+    "category": "foxconn",
+    "image": "https://i.ibb.co/093LQns/1.jpg"
+  },
+  {
+    "companyName": "LinkedIn",
+    "count_jobs": "125 jobs",
+    "position": "Designer",
+    "location": "New York, US",
+    "category": "linkedIn",
+    "image": "https://i.ibb.co/DVpd5P3/10.jpg"
+  },
+  {
+    "companyName": "Youtube",
+    "count_jobs": "258 jobs",
+    "position": "Enginier",
+    "location": "New York",
+    "category": "youtube",
+    "image": "https://i.ibb.co/7JCcWxB/5.jpg"
+  },
+  {
+    "companyName": "facebook",
+    "count_jobs": "55 jobs",
+    "position": "Data science",
+    "location": "bangladesh",
+    "category": "facebook",
+    "image": "https://i.ibb.co/myvjM1n/8.jpg"
+  },
+  {
+    "companyName": "NVIDIA Corp.",
+    "count_jobs": "22 jobs",
+    "position": "Testing",
+    "location": "bangladesh",
+    "category": "nvidia",
+    "image": "https://i.ibb.co/WP3mpwv/2.jpg"
+  },
+  {
+    "companyName": "Instagram",
+    "count_jobs": "140 jobs",
+    "position": "Designer",
+    "location": "pakistan",
+    "category": "instagram",
+    "image": "https://i.ibb.co/7NrbHFR/11.jpg"
+  }
+]
